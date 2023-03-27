@@ -1,0 +1,10 @@
+host: 'localhost'
+user1:
+  username: testone
+  password: 123456
+user2:
+  username: testtwo
+  password: 123456
+user3:
+  username: testthree
+  password: 123456

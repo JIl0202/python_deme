@@ -1,0 +1,13 @@
+host: 'localhost'
+user1:
+  username: testone
+  password: 123456
+  email: testone@gmail.com
+user2:
+  username: testtwo
+  password: 123456
+  email: testtwo@gmail.com
+user3:
+  username: testthree
+  password: 123456
+  email: testthree@gmail.com
