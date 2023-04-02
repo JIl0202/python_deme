@@ -1,7 +1,9 @@
 import os
 import openai
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+
+openai.organization = "org-7J3RR0RB9TUZGMq0wnc5aN5X"
+openai.api_key = "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"
 
 
 def generate_text(prompt):
