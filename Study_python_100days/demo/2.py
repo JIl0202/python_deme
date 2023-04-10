@@ -46,5 +46,3 @@ if __name__ == '__main__':
         get_weather_wind('http://www.weather.com.cn/data/sk/101200202.html')
     )
     print(msg)
-
-

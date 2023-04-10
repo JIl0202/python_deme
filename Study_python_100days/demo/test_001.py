@@ -1,7 +1,3 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
-print ("hello world!\n")
-
-
-
-
+print("hello world!\n")

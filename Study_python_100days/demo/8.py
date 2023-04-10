@@ -46,6 +46,8 @@ chapters = soup.select('a')  # 查找a标签,获得章节信息
 # 定义一个方法得到具体章节的内容
 # 定义一个变量判断是爬取此章节
 isreq = True
+
+
 def content(url_last):
     # 当前章节的url等于书籍的url加上章节a标签的href
     global url, headers, isreq
@@ -76,16 +78,19 @@ def content(url_last):
             con += text.text
     return con
 
+
 # 定义保存文件的方法
 # 首先写入书名和作者
 with open(save_path, 'w', encoding='utf-8') as w:
     w.write(book_name + '\n' + book_author)
+
 
 def save_book(content):
     if content == None:
         return
     with open(save_path, 'a', encoding='utf-8') as f:
         f.write(content)
+
 
 # 循环章节列表爬取并保存
 for chapter in chapters:

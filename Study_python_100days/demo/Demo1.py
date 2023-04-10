@@ -22,4 +22,3 @@ test = testcase(browser, url)
 test.get_driver()
 test.login(name, password)
 res = test.order_active_2(orderid)
-

@@ -5,8 +5,10 @@ class daynames:
     def __init__(self, dataval=None):
         self.dataval = dataval
         self.nextval = None
+
     def t1(self):
         print('1+1=2')
+
 
 if __name__ == '__main__':
 
@@ -22,10 +24,8 @@ if __name__ == '__main__':
     thisvalue = e1
 
     while thisvalue:
-            print(thisvalue.dataval)
-            print(thisvalue)
-            thisvalue = thisvalue.nextval
-
+        print(thisvalue.dataval)
+        print(thisvalue)
+        thisvalue = thisvalue.nextval
 
 print(time.strftime('%Y-%m-%d %H:%M:%S'))
-

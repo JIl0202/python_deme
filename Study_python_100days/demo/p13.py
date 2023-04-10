@@ -41,13 +41,3 @@
 # #顺序排列
 # numlist.sort()
 # print("顺序排列\n ", numlist)
-
-
-
-
-
-
-
-
-
-

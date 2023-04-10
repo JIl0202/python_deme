@@ -96,8 +96,3 @@ if __name__ == "__main__":  # 当程序执行时
     # 另外一种方法（方法2）
     # imgurl = 'http://videotx-platform.cdn.huya.com/1048585/1199520110371/25830031/67ce11c6ebebe5939871f9584df84840.mp4?bitrate=1084&client=106&definition=1300&pid=1199520110371&scene=vod&vid=548357759'
     # urllib.request.urlretrieve(imgurl, '.\\Result_File\\1.mp4')
-
-
-
-
-

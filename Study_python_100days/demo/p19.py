@@ -1,4 +1,5 @@
 import this
+
 '''f1 = open(r"d:\tmp\scott.sql", "r", encoding="UTF-8")
 flist = f1.readlines()
 f1.close()

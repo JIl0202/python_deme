@@ -1,15 +1,15 @@
 import sys
+
 flag = False
 try:
     path = input("输入一个文件名：")
     f1 = open(path, "r", encoding="GBK")
 
     print(f1.read())
-    flag=True
+    flag = True
 except:
     print(sys.exc_info())
     print("文件打开出错")
-
 
 if flag:
     print("文件读取完成")

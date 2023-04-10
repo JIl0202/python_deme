@@ -16,8 +16,9 @@
 
 class A:
     @classmethod
-    def named(slef,name='jack'):
+    def named(slef, name='jack'):
         slef.name = name
+
 
 t = A()
 print(t.named())

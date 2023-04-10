@@ -17,4 +17,3 @@ for i in range(n):
         test.write_log('执行失败')
         raise
 test.close()
-

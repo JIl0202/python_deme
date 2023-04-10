@@ -35,6 +35,6 @@
 # print(num2,id(num2))
 
 a = 'tianxiadayitong'
-b = {1,2,5,5,6,7,2,1}
+b = {1, 2, 5, 5, 6, 7, 2, 1}
 print(a[4:11])
 print(b, type(b))

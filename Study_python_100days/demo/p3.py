@@ -1,4 +1,6 @@
 import random
+
+
 #
 def main():
     tmp = input("输入任意值开始游戏")
@@ -26,11 +28,12 @@ def main():
             print("play again")
         tmp = input("是否再来一局? 如果输入q则退出.")
 
+
 main()
 
-#石头=0
-#剪刀=1
-#布=2
+# 石头=0
+# 剪刀=1
+# 布=2
 
 # option = ['石头','剪刀','布']
 #

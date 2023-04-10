@@ -1,4 +1,3 @@
-
 # value = 'todyisvaryhappy'
 # list_1 = value.split('a')
 # list_2 = tuple(list_1)

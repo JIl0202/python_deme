@@ -26,5 +26,3 @@ else:
     i = 0
 print('{}年{}月有{}天'.format(year,month,a[i][m]))
 """
-
-

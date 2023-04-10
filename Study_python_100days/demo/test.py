@@ -1,4 +1,4 @@
-def lengthOfLongestSubstring( s: str) -> int:
+def lengthOfLongestSubstring(s: str) -> int:
     # 哈希集合，记录每个字符是否出现过
     occ = set()
     n = len(s)
@@ -17,9 +17,6 @@ def lengthOfLongestSubstring( s: str) -> int:
     return ans
 
 
-
-
-
 def long(s):
     occ = set()
     l = 0
@@ -36,6 +33,7 @@ def long(s):
             m = 0
         reslut = max(reslut, m + 1)
     return reslut
+
 
 s = 'abcbbqwerty'
 print(long(s))

@@ -9,15 +9,16 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-
 url_1 = r'https://www.lewen.club/novel_reading/chapterList?bookid=16072430&sourceid=2457&sort=8'
 headers_1 = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33'
 }
-res_1 = requests.get(url_1,headers = headers_1)
+res_1 = requests.get(url_1, headers=headers_1)
 res_1.encoding = 'ASCii'
 soup_1 = BeautifulSoup(res_1.text, 'html')
 print(soup_1)
+
+
 def crawler(num):
     # 请求网址
     url = r'https://www.lewen.club/novelchapter-16072430/%d.html' % num
