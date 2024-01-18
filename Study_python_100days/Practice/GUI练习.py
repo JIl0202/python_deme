@@ -1,7 +1,7 @@
-import tkinter
-import tkinter.messagebox
+import GUI练习
+import GUI练习.messagebox
 
-
+"""
 def main():
     flag = True
 
@@ -37,7 +37,7 @@ def main():
     panel.pack(side='bottom')
     # 开启主事件循环
     tkinter.mainloop()
-
+"""
 
 if __name__ == '__main__':
     main()
